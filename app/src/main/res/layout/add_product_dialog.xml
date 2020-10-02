@@ -3,24 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvNameProduct"
+    <EditText
+        android:id="@+id/txt_product_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:padding="8dp"
+        android:ems="10"
+        android:hint="@string/addProduct"
+        android:inputType="textPersonName"
+        android:padding="16dp"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/tvAmountProduct"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/tvAmountProduct"
-        android:layout_width="100dp"
+    <EditText
+        android:id="@+id/txt_amount"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:padding="8dp"
+        android:ems="10"
+        android:hint="@string/addAmount"
+        android:inputType="textPersonName"
+        android:padding="16dp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_product_name" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

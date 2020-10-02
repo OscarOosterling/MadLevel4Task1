@@ -9,4 +9,8 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="addProduct">add product</string>
+    <string name="addAmount">add amount</string>
+    <string name="DialogTitle">add product to your list</string>
+    <string name="addtext">add</string>
 </resources>
